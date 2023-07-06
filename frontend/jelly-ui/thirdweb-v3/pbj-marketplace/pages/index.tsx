@@ -26,7 +26,7 @@ const Home: NextPage = () => {
           </div>
           <div className={styles.heroAssetFrame}>
             <Image
-              src="/frontend/jelly-ui/thirdweb-v3/pbj-marketplace/pbj-images/pbj-thoughtbubble.jpeg"
+              src="/public/pbj-thoughtbubble.jpeg"
               width={860}
               height={540}
               alt="Hero asset, NFT marketplace"
@@ -38,7 +38,7 @@ const Home: NextPage = () => {
             <div className={styles.heroBody}>
               <h1 className={styles.heroTitle}>
                 <span className={styles.heroTitleGradient}>
-                  PB&J NFT Marketplace
+                  PBJ Marketplace
                 </span>
                 <br />
                 Digital & Physical.
@@ -49,15 +49,16 @@ const Home: NextPage = () => {
                   href="https://thirdweb.com"
                   target="_blank"
                 >
-                  thirdweb
+                  PBJ Direct
                 </Link>{" "}
-                gives you the tools you need to create audited, performant, and
-                flexible NFT marketplaces in <b>hours</b>, <i>not months</i>.
+                a 2 sided marketplace that sells peanut butter and jelly products 
+                directly to consumers. Payments that can be accepted are 
+                both <b>fiat</b>, <i>and ethereum</i>.
               </p>
 
               <div className={styles.heroCtaContainer}>
                 <Link className={styles.heroCta} href="/buy">
-                  Get PB&J NFTs
+                  Get PBJs
                 </Link>
                 <Link
                   className={styles.secondaryCta}

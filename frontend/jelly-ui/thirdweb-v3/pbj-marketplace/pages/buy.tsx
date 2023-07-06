@@ -11,13 +11,13 @@ export default function Buy() {
 
   return (
     <Container maxWidth="lg">
-      <h1>Buy PB&J NFTs</h1>
-      <p>Browse which PBJNFTs are available from the collection.</p>
+      <h1>Buy PB&Js</h1>
+      <p>Browse which PBJs are available from the collection.</p>
       <NFTGrid
         data={data}
         isLoading={isLoading}
         emptyText={
-          "Looks like there are no NFTs in this collection. Did you import your contract on the thirdweb dashboard? https://thirdweb.com/dashboard"
+          "Looks like there are no PBJs in this collection. Did you import your contract on the thirdweb dashboard? https://thirdweb.com/dashboard"
         }
       />
     </Container>
