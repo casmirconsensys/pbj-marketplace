@@ -22,10 +22,10 @@ export default function Sell() {
 
   return (
     <Container maxWidth="lg">
-      <h1>Sell NFTs</h1>
+      <h1>Sell PBJs</h1>
       {!selectedNft ? (
         <>
-          <p>Select which NFT you&rsquo;d like to sell below.</p>
+          <p>Select which PBJ you&rsquo;d like to sell below.</p>
           <NFTGrid
             data={data}
             isLoading={isLoading}
