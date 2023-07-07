@@ -2,6 +2,7 @@
   "name": "pbj-marketplace",
   "version": "0.0.1",
   "private": true,
+  "dev": "next dev -p 3001",
   "scripts": {
     "dev": "npm run wagmi && next dev",
     "build": "npm run wagmi && next build",
@@ -25,4 +26,5 @@
     "eslint-config-next": "^12.1.6",
     "typescript": "^5.0.4"
   }
+  
 }

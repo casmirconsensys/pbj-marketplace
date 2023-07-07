@@ -10,19 +10,18 @@ export default function Home() {
             Welcome to{" "}
             <span className="gradient-text-0">
               <a
-                href="https://thirdweb.com/"
+                href="https://pbnj-8146.myshopify.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                thirdweb.
+                PBnJ Shop
               </a>
             </span>
           </h1>
 
           <p className="description">
-            Get started by configuring your desired network in{" "}
-            <code className="code">src/index.js</code>, then modify the{" "}
-            <code className="code">src/App.js</code> file!
+            Get started by redeeming your desired PBJ Physical in the PBnJ Shop{" "}
+
           </p>
 
           <div className="connect">
@@ -43,14 +42,13 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <img
-              src="/images/portal-preview.png"
+              src="/images/mint-preview.png"
               alt="Placeholder preview of starter"
             />
             <div className="card-text">
-              <h2 className="gradient-text-1">Portal ➜</h2>
+              <h2 className="gradient-text-1">Mint ➜</h2>
               <p>
-                Guides, references, and resources that will help you build with
-                thirdweb.
+                Mint your PBJ on the Ethereum blockchain!
               </p>
             </div>
           </a>
@@ -62,14 +60,13 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <img
-              src="/images/dashboard-preview.png"
+              src="/images/marketplace-preview.png"
               alt="Placeholder preview of starter"
             />
             <div className="card-text">
-              <h2 className="gradient-text-2">Dashboard ➜</h2>
+              <h2 className="gradient-text-2">Marketplace ➜</h2>
               <p>
-                Deploy, configure, and manage your smart contracts from the
-                dashboard.
+                Bid, Buy Sell PBJs on the Marketplace.
               </p>
             </div>
           </a>
@@ -81,14 +78,13 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <img
-              src="/images/templates-preview.png"
+              src="/images/shop-preview.png"
               alt="Placeholder preview of templates"
             />
             <div className="card-text">
-              <h2 className="gradient-text-3">Templates ➜</h2>
+              <h2 className="gradient-text-3">Shop ➜</h2>
               <p>
-                Discover and clone template projects showcasing thirdweb
-                features.
+                Discover and redeem PBJ Uncrustables.
               </p>
             </div>
           </a>
